@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-    <Preference
-        app:key="about"
-        app:title="About"/>
-    <Preference
-        app:key="version"
-        app:title="1.0"/>
+    <PreferenceCategory
+        app:key="about_category"
+        app:title="About">
+        <Preference
+            app:key="application_name"
+            app:title="Application Name"
+            app:summary="Settings App"/>
+        <Preference
+            app:key="version"
+            app:title="Version"
+            app:summary="1.0"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="new_category"
+        app:title="New Category">
+        <SwitchPreferenceCompat
+            app:key="download"
+            app:title="Download over Wi-fi only"/>
+    </PreferenceCategory>
 </PreferenceScreen>
