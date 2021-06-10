@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory
+    <Preference
         app:key="about_category"
-        app:title="About">
-        <Preference
-            app:key="application_name"
-            app:title="Application Name"
-            app:summary="Settings App"/>
-        <Preference
-            app:key="version"
-            app:title="Version"
-            app:summary="1.0"/>
-    </PreferenceCategory>
+        app:title="About"
+        app:fragment="com.example.gitemptyactivitytemplatesettingsapp.AboutPreferenceFragment"/>
 
     <PreferenceCategory
         app:key="new_category"
