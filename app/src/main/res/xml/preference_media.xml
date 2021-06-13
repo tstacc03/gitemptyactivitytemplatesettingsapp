@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory app:key="category_media" app:title="Media">
+    <SwitchPreferenceCompat
+        app:key="download"
+        app:title="Download media over Wi-fi only"/></PreferenceCategory>
+</PreferenceScreen>

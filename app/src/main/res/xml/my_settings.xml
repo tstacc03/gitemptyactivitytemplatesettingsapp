@@ -5,11 +5,9 @@
         app:title="About"
         app:fragment="com.example.gitemptyactivitytemplatesettingsapp.AboutPreferenceFragment"/>
 
-    <PreferenceCategory
-        app:key="new_category"
-        app:title="New Category">
-        <SwitchPreferenceCompat
-            app:key="download"
-            app:title="Download over Wi-fi only"/>
-    </PreferenceCategory>
+    <Preference
+        app:key="media_category"
+        app:title="Media"
+        app:fragment="com.example.gitemptyactivitytemplatesettingsapp.MediaPreferenceFragment">
+    </Preference>
 </PreferenceScreen>
